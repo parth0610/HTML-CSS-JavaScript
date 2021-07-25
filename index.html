@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Parth - HTML-CSS-JS Assignment</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div id="mainDivId" style="width: 89%; padding-left: 7%; " >
+        <hr>
+        <h1>Product List</h1>
+        <hr>
+    </br>
+        <div class="product-row " style="border: 0.1em solid;">
+            <div id="prodId1" class="product-col ">
+                <img src="./images/iphone12.jpg" style="height: 250px; width:250px;" />
+                <div class="descCls">
+                    Description: Super Retina OLED,5G,12MP,4GBRAM,2815MAH<br>
+                    Price: $700<br>
+                    Quantity: <input type="number" id="qVal" class="qVal" maxlength="2" value="1" />
+                              <input type="hidden" id="itemName" name="itemName" value="Iphone 12" />
+                              <input type="hidden" id="itemPrice" name="itemPrice" value="700" />
+                              <input type="hidden" id="itemId" name="itemId" value="1" />
+                              <input type="hidden" id="imagePath" name="imagePath" value="iphone12" />
+                    
+                    <br>
+                    <button id="btn" class="btn" onclick="addToCart(this)"> Add to Cart</button>
+                </div>
+            </div>
+            <div id="prodId1" class="product-col ">
+                <img src="./images/Iphone_12_promax.jpg" style="height: 250px; width:250px;" />
+                <div class="descCls">
+                    Description: Super Retina OLED,5G,12MP,6GBRAM,3687MAH<br>
+                    Price: $1000<br>
+                    Quantity: <input type="number" id="qVal" class="qVal" maxlength="2" value="1" />
+                              <input type="hidden" id="itemName" name="itemName" value="Iphone 12promax" />
+                              <input type="hidden" id="itemPrice" name="itemPrice" value="1000" />
+                              <input type="hidden" id="itemId" name="itemId" value="2" />
+                              <input type="hidden" id="imagePath" name="imagePath" value="Iphone_12_promax" />
+                    
+                    <br>
+                    <button id="btn" class="btn" onclick="addToCart(this)"> Add to Cart</button>
+                </div>
+            </div>
+            <div id="prodId1" class="product-col ">
+                <img src="./images/Samsung Galaxy S21 Ultra.jpg" style="height: 250px; width:250px;" />
+                <div class="descCls">
+                    Description: Dynamic AMOLED,5G,108MP,12GBRAM,5000MAH<br>
+                    Price: $1200<br>
+                    Quantity: <input type="number" id="qVal" class="qVal" maxlength="2" value="1" />
+                              <input type="hidden" id="itemName" name="itemName" value="Samsung Galaxy S21 Ultra" />
+                              <input type="hidden" id="itemPrice" name="itemPrice" value="1200" />
+                              <input type="hidden" id="itemId" name="itemId" value="3" />
+                              <input type="hidden" id="imagePath" name="imagePath" value="Samsung Galaxy S21 Ultra" />
+                    
+                    <br>
+                    <button id="btn" class="btn" onclick="addToCart(this)"> Add to Cart</button>
+                </div>
+            </div>
+            <div id="prodId1" class="product-col ">
+                <img src="./images/Xiaomi Mi 11 Ultra.jpg" style="height: 250px; width:250px;" />
+                <div class="descCls">
+                    Description: AMOLED,5G,50MP,12GBRAM,5000MAH<br>
+                    Price: $1500<br>
+                    Quantity: <input type="number" id="qVal" class="qVal" maxlength="2" value="1" />
+                              <input type="hidden" id="itemName" name="itemName" value="Xiaomi Mi 11 Ultra" />
+                              <input type="hidden" id="itemPrice" name="itemPrice" value="1500" />
+                              <input type="hidden" id="itemId" name="itemId" value="4" />
+                              <input type="hidden" id="imagePath" name="imagePath" value="Xiaomi Mi 11 Ultra" />
+                    
+                    <br>
+                    <button id="btn" class="btn" onclick="addToCart(this)"> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div style="width: 35%; padding-left: 7%; ">
+        <h1>Add to Cart</h1>
+        <div style="border: 0.1em solid;">
+            <p id='finalCartInfo'></p>
+        </div>
+       
+   </div>
+
+</body>
+
+</html>

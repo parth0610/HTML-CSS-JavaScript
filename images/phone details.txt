@@ -1,0 +1,20 @@
+iphone 12:-  Super Retina XDR OLED,5G,12MP,4GBRAM,2815MAH
+		price= 700
+
+
+
+iphone 12 pro max:- Super Retina XDR OLED,5G,12MP,6GBRAM,3687MAH
+		price= 1000
+
+		
+
+samsung:-Dynamic AMOLED,5G,108MP,12GBRAM,5000MAH
+		price= 1200
+
+
+
+
+redmi:-AMOLED,5G,50MP,12GBRAM,5000MAH
+		price= 1500
+
+<link href="css/style-cart.css" rel="stylesheet" type="text/css">
